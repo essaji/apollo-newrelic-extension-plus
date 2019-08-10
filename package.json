@@ -1,0 +1,30 @@
+{
+  "name": "apollo-newrelic-extension-plus",
+  "version": "1.0.0",
+  "description": "This package contains the code from the apollo-newlrec-extension package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essaji/apollo-newrelic-extension-plus.git"
+  },
+  "keywords": [
+    "Apollo"
+  ],
+  "author": "Eesa Abid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essaji/apollo-newrelic-extension-plus/issues"
+  },
+  "homepage": "https://github.com/essaji/apollo-newrelic-extension-plus#readme",
+  "dependencies": {
+    "graphql-extensions": "^0.9.1",
+    "graphql-tag": "^2.10.1",
+    "ramda": "^0.26.1"
+  },
+  "peerDependencies": {
+    "newrelic": "^4.8.0"
+  }
+}
