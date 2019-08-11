@@ -1,18 +1,21 @@
 # Apollo New Relic Extension Plus
 Creates newrelic transaction for graphql queries.
 
-This is a forked repository of `apollo-newrelic-extension`. We created this plus package because
+This is a forked repository of `apollo-newrelic-extension`. We decided to created this plus package because
 the previous package uses `operationName` as the `transactionName` which is an optional
  attribute in a graphql request and can be `null` at times. 
 
-This package always uses graphql query name as the name of the transaction.
+This package always utilizes graphql query name as the name of the transaction which can never be `null`
+
+Also `newrelic` libraries requires it to be imported as first thing in the project therefore we
+decided to pass it as parameter to the `apollo-newrelic-extension-plus` extension.
 
 ## Usage
 ```javascript
 const newrelic = require('newrelic')
 const express = require('express')
 const { ApolloServer } = require('apollo-server-express')
-const ApolloNewrelicExtensionPlus = require('apollo-newrelic-extension')
+const ApolloNewrelicExtensionPlus = require('apollo-newrelic-extension-plus')
 const typeDefs = require('./typeDefs')
 const resolvers = require('./resolvers')
 

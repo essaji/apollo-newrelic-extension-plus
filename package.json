@@ -1,6 +1,6 @@
 {
   "name": "apollo-newrelic-extension-plus",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This package contains the code from the apollo-newlrec-extension package",
   "main": "src/index.js",
   "scripts": {
@@ -23,8 +23,5 @@
     "graphql-extensions": "^0.9.1",
     "graphql-tag": "^2.10.1",
     "ramda": "^0.26.1"
-  },
-  "peerDependencies": {
-    "newrelic": "^4.8.0"
   }
 }
