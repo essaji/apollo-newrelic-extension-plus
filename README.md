@@ -11,7 +11,7 @@ Also `newrelic` libraries requires it to be imported as first thing in the proje
 decided to pass it as parameter to the `apollo-newrelic-extension-plus` extension.
 
 ## Usage
-* Run `npm install --save apollo-newrelic-extension`
+* Run `npm install --save apollo-newrelic-extension-plus`
 * Import `newrelic` on top of app & pass it as parameter
 * Enable tracing in your ApolloServer configuration by setting `tracing: true`
 ## Example
