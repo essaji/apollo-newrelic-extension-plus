@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/essaji/apollo-newrelic-extension-plus#readme",
   "dependencies": {
-    "graphql-extensions": "^0.9.1",
+    "graphql-extensions": "^0.16.0",
     "graphql-tag": "^2.10.1",
     "ramda": "^0.26.1"
   }
